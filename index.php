@@ -13,6 +13,7 @@
   <body>
     <header>
       <div class="contenedor">
+        <img src="Pictures/TecNM_logo.png"/></a>
         <h2 class="logotipo">SIAE - Sistema Integral de Actividades Extraescolares</h2>
         <nav>
           <a href="index.html" class="activo">Inicio</a>
@@ -24,14 +25,15 @@
     <main>
       <div class="pelicula-principal">
         <div class="contenedor">
-          <h3 class="titulo">Kendo</h3>
+          <h3 class="titulo">Bienvenidos a Extraescolares</h3>
           <p class="descripcion">
-            <br>Impartida en el gimnasio de nuestra institución.</br>
-              <p>El kendo es una de las artes marciales más antiguas de Japón y actualmente se aprende y se vive de la misma
-              forma en la que lo hicieron los samuráis hace cientos de años. Además, sus practicantes lo consideran mucho
-              más que un deporte, ya que es una forma de fortalecer moralmente al ser humano.</p>
+            <br>Tu recurso en línea para descubrir, explorar y participar en una gran variedad de actividades deportivas y culturales.</br>
+              <p>Sabemos que el deporte y la cultura son dos pilares fundamentales que nutren nuestras vidas, 
+                mejoran nuestra salud y bienestar, y nos permiten expresar y desarrollar nuestras habilidades y talentos. 
+                Es por eso que nos dedicamos a brindarte la información más completa, actualizada y relevante sobre actividades, 
+                eventos y organizaciones en estas áreas.</p>
             <br>
-          <button role="button" class="boton">
+            <button role="button" class="boton">
             <i class="fas fa-info-circle"></i>Más información
           </button>
         </div>
@@ -39,7 +41,13 @@
 
       <div class="peliculas-recomendadas contenedor">
         <div class="contenedor-titulo-controles">
-          <h3>Actividades Extraescolares</h3>
+          <h3>Actividades Deportivas</h3>
+          <div class="indicadores"></div>
+        </div>
+      </div>
+      <div class="peliculas-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+          <h3>Actividades Culturales</h3>
           <div class="indicadores"></div>
         </div>
       </div>

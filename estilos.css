@@ -1,6 +1,6 @@
 :root {
   --rojo: #e50914;
-  --fondo: #141414;
+  --fondo: #ffffff;
   --azul: #335bff;
 }
 
@@ -54,7 +54,7 @@ header nav a.activo {
   min-height: 40.62em;
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
-    url(backdrop.jpg);
+    url(Pictures/backdrop.jpg);
   background-position: center center;
   background-size: cover;
   margin-bottom: 3.12em;
