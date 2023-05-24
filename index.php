@@ -16,7 +16,6 @@
         <img src="Pictures/TecNM_logo.png"/></a>
         <h2 class="logotipo">SIAE - Sistema Integral de Actividades Extraescolares</h2>
         <nav>
-          <a href="index.html" class="activo">Inicio</a>
           <a href="index2.html">Ingreso</a>
         </nav>
       </div>
@@ -46,13 +45,36 @@
       <div class="peliculas-recomendadas contenedor">
         <div class="contenedor-titulo-controles">
           <h3>Actividades Culturales</h3>
-          <div class="indicadores"></div>
         </div>
       </div>
+      <div class="ContainerClasesExtracurriculares">
+        <div class="row row-cols">
+          <div class="col">
+            <div class="card-shadow">
+              <img src="Pictures/2.jpg">
+              <div class="card-body">
+                <h5 class="card-title">actividad</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="peliculas-recomendadas contenedor">
         <div class="contenedor-titulo-controles">
           <h3>Actividades Deportivas</h3>
-          <div class="indicadores"></div>
+        </div>
+      </div>
+      <div class="ContainerClasesExtracurriculares">
+        <div class="row row-cols">
+          <div class="col">
+            <div class="card-shadow">
+              <img src="Pictures/1.jpg">
+              <div class="card-body">
+                <h5 class="card-title">actividad</h5>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
