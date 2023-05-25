@@ -4,7 +4,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="Styles/StyleHeader.css" />
+    <link rel="stylesheet" href="Styles/StyleBanner.css" />
+    <link rel="stylesheet" href="Styles/StyleCommentBox.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet" />
     <title>SIAE - Sistema Integral de Actividades Extraescolares</title>
@@ -12,9 +14,9 @@
 
   <body>
     <header>
-      <div class="contenedor">
+      <div class="contenedorHeader">
         <img src="Pictures/TecNM_logo.png"/></a>
-        <h2 class="logotipo">SIAE - Sistema Integral de Actividades Extraescolares</h2>
+        <h2 class="titulo">SIAE - Sistema Integral de Actividades Extraescolares</h2>
         <nav>
           <a href="index2.html">Ingreso</a>
         </nav>
@@ -22,18 +24,19 @@
     </header>
 
     <main>
-      <div class="pelicula-principal">
-        <div class="contenedor">
+      <div class="contenedorBanner">
+        <div class="contenedorInformation">
           <h3 class="titulo">Bienvenidos a Extraescolares</h3>
           <p class="descripcion">
-            <br>Tu recurso en línea para descubrir, explorar y participar en una gran variedad de actividades deportivas y culturales.<br>
+            <br>
+              <p>Tu recurso en línea para descubrir, explorar y participar en una gran variedad de actividades deportivas y culturales.</p>
               <p>Sabemos que el deporte y la cultura son dos pilares fundamentales que nutren nuestras vidas, 
                 mejoran nuestra salud y bienestar, lo cual nos permiten expresar y desarrollar nuestras habilidades y/o talentos.<br> 
                 Es por eso que nos dedicamos a brindarte la información más completa, actualizada y relevante sobre actividades, 
                 eventos y organizaciones en estas áreas.</p>
-            <br>
-              <p>Aquí en Extraescolares, creemos en la importancia de una vida equilibrada llena de experiencias enriquecedoras. 
-                Ya sea que busques una nueva pasión, </br> desarrolles un talento o simplemente te mantengas activo y comprometido, 
+            
+              <p>En el departamento de actividades extraescolares, creemos en la importancia de una vida equilibrada llena de experiencias enriquecedoras. 
+                Ya sea que busques una nueva pasión, desarrolles un talento o </br> simplemente te mantengas activo y comprometido, 
                 estamos aquí para ayudarte en tu viaje.</p>
             <br>
             <button role="button" class="boton">
@@ -77,7 +80,15 @@
           </div>
         </div>
       </div>
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+
+      <div class="comments-section">
+        <h3>Deja un comentario:</h3>
+        <textarea placeholder="Escribe tu comentario aquí..."></textarea>
+        <button>Enviar</button>
+      </div>
+
+      <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+    </main>
   </body>
 </html>
