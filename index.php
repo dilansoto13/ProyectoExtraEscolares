@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/CSSHeader.css"/>
+    <link rel="stylesheet" href="CSS/CSSModalIngreso.css"/>
     <link rel="stylesheet" href="CSS/CSSBanner.css"/>
     <link rel="stylesheet" href="CSS/CSSActivities.css"/>
     <link rel="stylesheet" href="CSS/CSSCommentBox.css"/>
@@ -16,13 +17,26 @@
   <body>
     <header>
       <div class="contenedorHeader">
-        <img src="Pictures/TecNM_logo.png"/></a>
+        <img src="CSS/Pictures/TecNM_logo.png"/></a>
         <h2 class="titulo">SIAE - Sistema Integral de Actividades Extraescolares</h2>
         <nav>
-          <a href="index2.html">Ingreso</a>
+          <a id="myBtn">Ingreso</a>
         </nav>
       </div>
     </header>
+    
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form>
+            <label for="username">Usuario</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+</div>
 
     <main>
       <div class="contenedorBanner">
@@ -53,7 +67,7 @@
         <div class="row row-cols">
           <div class="col">
             <div class="card-shadow">
-              <img src="Pictures/2.jpg">
+              <img src="CSS/Pictures/1.jpg">
               <div class="card-body">
                 <h5 class="card-title">actividad</h5>
               </div>
@@ -69,7 +83,7 @@
         <div class="row row-cols">
           <div class="col">
             <div class="card-shadow">
-              <img src="Pictures/1.jpg">
+              <img src="CSS/Pictures/2.jpg">
               <div class="card-body">
                 <h5 class="card-title">actividad</h5>
               </div>
@@ -89,6 +103,7 @@
 
       <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
       <script src="main.js"></script>
+      <script src="JS/JSModalIngreso.js"></script>
     </main>
   </body>
 </html>
