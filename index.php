@@ -4,9 +4,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Styles/StyleHeader.css" />
-    <link rel="stylesheet" href="Styles/StyleBanner.css" />
-    <link rel="stylesheet" href="Styles/StyleCommentBox.css" />
+    <link rel="stylesheet" href="CSS/CSSHeader.css"/>
+    <link rel="stylesheet" href="CSS/CSSBanner.css"/>
+    <link rel="stylesheet" href="CSS/CSSActivities.css"/>
+    <link rel="stylesheet" href="CSS/CSSCommentBox.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet" />
     <title>SIAE - Sistema Integral de Actividades Extraescolares</title>
@@ -45,10 +46,8 @@
         </div>
       </div>
 
-      <div class="peliculas-recomendadas contenedor">
-        <div class="contenedor-titulo-controles">
+      <div class="ContainerTitle">
           <h3>Actividades Culturales</h3>
-        </div>
       </div>
       <div class="ContainerClasesExtracurriculares">
         <div class="row row-cols">
@@ -63,10 +62,8 @@
         </div>
       </div>
 
-      <div class="peliculas-recomendadas contenedor">
-        <div class="contenedor-titulo-controles">
+      <div class="ContainerTitle">
           <h3>Actividades Deportivas</h3>
-        </div>
       </div>
       <div class="ContainerClasesExtracurriculares">
         <div class="row row-cols">
@@ -81,6 +78,9 @@
         </div>
       </div>
 
+      <div class="ContainerTitle">
+          <h3>Caja de Comentarios</h3>
+      </div>
       <div class="comments-section">
         <h3>Deja un comentario:</h3>
         <textarea placeholder="Escribe tu comentario aquí..."></textarea>

@@ -1,0 +1,29 @@
+/* ---- ----- ----- Titulos ----- ----- ----- */
+.ContainerTitle {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.ContainerTitle h3 {
+    font-size: 2em;
+    color: #333;
+    text-transform: uppercase;
+}
+/* ---- ----- ----- Recuadros de Actividad ----- ----- ----- */
+.card-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-shadow img {
+    width: 100%;
+}
+
+.card-shadow h5 {
+    padding: 10px;
+}
