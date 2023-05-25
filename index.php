@@ -26,17 +26,17 @@
     </header>
     
     <div id="myModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <form>
-            <label for="username">Usuario</label><br>
-            <input type="text" id="username" name="username" required><br>
-            <label for="password">Contraseña</label><br>
-            <input type="password" id="password" name="password" required>
-            <input type="submit" value="Iniciar Sesión">
-        </form>
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <form>
+              <label for="username">Usuario</label><br>
+              <input type="text" id="username" name="username" required><br>
+              <label for="password">Contraseña</label><br>
+              <input type="password" id="password" name="password" required>
+              <input type="submit" value="Iniciar Sesión">
+          </form>
+      </div>
     </div>
-</div>
 
     <main>
       <div class="contenedorBanner">
@@ -63,6 +63,7 @@
       <div class="ContainerTitle">
           <h3>Actividades Culturales</h3>
       </div>
+
       <div class="ContainerClasesExtracurriculares">
         <div class="row row-cols">
           <div class="col">
@@ -79,6 +80,7 @@
       <div class="ContainerTitle">
           <h3>Actividades Deportivas</h3>
       </div>
+
       <div class="ContainerClasesExtracurriculares">
         <div class="row row-cols">
           <div class="col">
@@ -95,6 +97,7 @@
       <div class="ContainerTitle">
           <h3>Caja de Comentarios</h3>
       </div>
+      
       <div class="comments-section">
         <h3>Deja un comentario:</h3>
         <textarea placeholder="Escribe tu comentario aquí..."></textarea>
