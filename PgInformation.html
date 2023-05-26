@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/CSSHeader.css"/>
+    <link rel="stylesheet" href="CSS/CSSModalIngreso.css"/>
+    
+    <link rel="stylesheet" href="CSS/CSSBanner.css"/>
+    <link rel="stylesheet" href="CSS/CSSActivities.css"/>
+    <link rel="stylesheet" href="CSS/CSSCommentBox.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet" />
+    <title>SIAE - Sistema Integral de Actividades Extraescolares</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="contenedorHeader">
+        <img src="CSS/Pictures/TecNM_logo.png"/></a>
+        <h2 class="titulo">SIAE - Sistema Integral de Actividades Extraescolares</h2>
+        <nav>
+          <a id="myBtn">Ingreso</a>
+        </nav>
+      </div>
+    </header>
+    
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <form>
+              <label for="username">Usuario</label><br>
+              <input type="text" id="username" name="username" required><br>
+              <label for="password">Contraseña</label><br>
+              <input type="password" id="password" name="password" required>
+              <input type="submit" value="Iniciar Sesión">
+          </form>
+      </div>
+    </div>
+
+
+      <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+      <script src="JS/JSModalIngreso.js"></script>
+    </main>
+  </body>
+</html>

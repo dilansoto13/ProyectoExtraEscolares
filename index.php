@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/CSSHeader.css"/>
     <link rel="stylesheet" href="CSS/CSSModalIngreso.css"/>
+    
     <link rel="stylesheet" href="CSS/CSSBanner.css"/>
     <link rel="stylesheet" href="CSS/CSSActivities.css"/>
     <link rel="stylesheet" href="CSS/CSSCommentBox.css"/>
@@ -51,12 +52,13 @@
                 eventos y organizaciones en estas áreas.</p>
             
               <p>En el departamento de actividades extraescolares, creemos en la importancia de una vida equilibrada llena de experiencias enriquecedoras. 
-                Ya sea que busques una nueva pasión, desarrolles un talento o </br> simplemente te mantengas activo y comprometido, 
+                Ya sea que busques una nueva pasión, desarrolles un talento o simplemente te mantengas activo y comprometido, 
                 estamos aquí para ayudarte en tu viaje.</p>
             <br>
-            <button role="button" class="boton">
-            <i class="fas fa-info-circle"></i>Más información
-          </button>
+            <button id="myBtnInfo" role="button" class="boton">
+              <i class="fas fa-info-circle"></i>Más información
+            </button>
+          </p>
         </div>
       </div>
 
@@ -97,7 +99,7 @@
       <div class="ContainerTitle">
           <h3>Caja de Comentarios</h3>
       </div>
-      
+
       <div class="comments-section">
         <h3>Deja un comentario:</h3>
         <textarea placeholder="Escribe tu comentario aquí..."></textarea>
