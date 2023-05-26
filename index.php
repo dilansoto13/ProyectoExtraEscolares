@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/CSSHeader.css"/>
     <link rel="stylesheet" href="CSS/CSSModalIngreso.css"/>
-    
     <link rel="stylesheet" href="CSS/CSSBanner.css"/>
     <link rel="stylesheet" href="CSS/CSSActivities.css"/>
     <link rel="stylesheet" href="CSS/CSSCommentBox.css"/>
@@ -55,8 +54,8 @@
                 Ya sea que busques una nueva pasión, desarrolles un talento o simplemente te mantengas activo y comprometido, 
                 estamos aquí para ayudarte en tu viaje.</p>
             <br>
-            <button id="myBtnInfo" role="button" class="boton">
-              <i class="fas fa-info-circle"></i>Más información
+            <button role="button" class="boton">
+              <i class="fas fa-info-circle"></i><a href="PgInformation.html">Más información</a>
             </button>
           </p>
         </div>
@@ -107,7 +106,6 @@
       </div>
 
       <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-      <script src="main.js"></script>
       <script src="JS/JSModalIngreso.js"></script>
     </main>
   </body>

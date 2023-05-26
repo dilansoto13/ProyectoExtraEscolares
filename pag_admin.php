@@ -1,48 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>SIAE - Sistema Integral de Actividades Extraescolares</title>
-	<link rel="stylesheet" href="estilos.css">
-</head>
-<table>
-	<th colspan="2">Bienvenido admin</th>
-	<th><a href="index2.html">Regresar</a></th>
-	<tr>
-		<th colspan="3">
-			<h1>Listado de usuarios</h1>
-		</th>
-	</tr>
-	<tr>
-		<th>Usuario</th>
-		<th>Contraseña</th>
-		<th>Rol</th>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/CSSHeader.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet" />
+    <title>SIAE - Sistema Integral de Actividades Extraescolares</title>
+  </head>
 
-	</tr>
+  <body>
+    <header>
+      <div class="contenedorHeader">
+        <img src="CSS/Pictures/TecNM_logo.png"/></a>
+        <h2 class="titulo">SIAE - Sistema Integral de Actividades Extraescolares</h2>
+        <nav>
+          <a id="myBtn">Salir</a>
+        </nav>
+      </div>
+    </header>
+    
+    
 
-	<?php
+    <main>
+      
 
-	include('conexion.php');
-
-	$sql = "select * from login";
-	$resultado = mysqli_query($conn, $sql);
-
-	while ($mostrar = mysqli_fetch_array($resultado)) {
-	?>
-
-		<tr>
-			<td><?php echo $mostrar['usuario'] ?></td>
-			<td><?php echo $mostrar['pass'] ?></td>
-			<td><?php echo $mostrar['rol'] ?></td>
-		</tr>
-
-	<?php
-	}
-	?>
-
-</table>
-
-</body>
-
+      <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+      
+    </main>
+  </body>
 </html>
